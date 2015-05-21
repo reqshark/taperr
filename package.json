@@ -1,0 +1,34 @@
+{
+  "name"        :           "taperr",
+  "version"     :           "0.0.2",
+  "description" :           "tape error events for t.fail(msg)",
+  "repository"      : {
+    "type"        :         "git",
+    "url"         :         "https://github.com/reqshark/taperr"
+  },
+  "author"          : {
+    "name"        :         "Bent Cardan",
+    "email"       :         "bent@nothingsatisfies.com",
+    "url"         :         "http://req.link"
+  },
+  "devDependencies" : {
+    "tape"        :         "~3.5.0",
+    "tap-spec"    :         "~2.2.1"
+  },
+  "scripts"         : {
+    "test"        :         "node test | tap-spec"
+  },
+  "keywords"        : [
+                            "tfail",
+                            "er",
+                            "events",
+                            "error handle",
+                            "test",
+                            "harness",
+                            "tap",
+                            "tape",
+                            "err",
+                            "error message"
+  ],
+  "license"       :         "beerware"
+}
