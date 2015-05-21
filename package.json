@@ -1,6 +1,6 @@
 {
   "name"        :           "taperr",
-  "version"     :           "0.0.2",
+  "version"     :           "0.1.0",
   "description" :           "tape error events for t.fail(msg)",
   "repository"      : {
     "type"        :         "git",
@@ -30,5 +30,5 @@
                             "err",
                             "error message"
   ],
-  "license"       :         "beerware"
+  "license"       :         "martiniware"
 }

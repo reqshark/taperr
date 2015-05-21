@@ -1,9 +1,5 @@
 /**
  * t.fail err handling
  */
-
-var evt = require('./masquerade');
-module.exports  = {
-  evterr        :       evt.evterr,
-  err           :       evt.err
-}
+exports = module.exports = require('./lib/global');
+exports.err = require('./lib/handle');
