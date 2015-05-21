@@ -1,6 +1,6 @@
 {
   "name"        :           "taperr",
-  "version"     :           "0.1.0",
+  "version"     :           "0.1.1",
   "description" :           "tape error events for t.fail(msg)",
   "repository"      : {
     "type"        :         "git",
@@ -10,6 +10,9 @@
     "name"        :         "Bent Cardan",
     "email"       :         "bent@nothingsatisfies.com",
     "url"         :         "http://req.link"
+  },
+  "dependencies"    : {
+    "utildot"     :         "~0.0.5"
   },
   "devDependencies" : {
     "tape"        :         "~3.5.0",
